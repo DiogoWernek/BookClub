@@ -1,0 +1,14 @@
+header {
+  justify-content: space-between;
+  align-items: center;
+
+  & a {
+    all: unset;
+    padding: .75rem 1.25rem;
+    font: var(--button);
+    background-color: var(--pink-dark);
+    color: var(--text-title);
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+}

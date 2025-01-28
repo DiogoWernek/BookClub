@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+}
+
+.pd-sm {
+  padding: 1.25rem;
+}
+
+.fd-column {
+  flex-direction: column;
+}

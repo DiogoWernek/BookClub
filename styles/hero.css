@@ -1,0 +1,12 @@
+.hero {
+  background: url('../assets/hero-background.png') no-repeat;
+  background-size: cover;
+  
+  & h1 {
+    font: var(--title-lg);
+  }
+
+  & p {
+    font: var(--body-lg);
+  }
+}

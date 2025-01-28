@@ -1,0 +1,56 @@
+*, *::after, *::before {
+  padding: 0;
+
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-low: #3F0F41;
+  --pink-base: #9547A5;
+  --pink-dark: #7D298A;
+  --pink-light: #C59DD2;
+
+  --blue-mid: #2374A4;
+  --blue-low: #08233C;
+  --blue-base: #358BB9;
+  --blue-dark: #144A72;
+  --blue-light: #73B6D2;
+
+  --shape-base: #000F1F;
+  --shape-hover: #001933;
+  --shape-stroke: #002347;
+  --shape-background: #00050A;
+
+  --text-body: #E2E7E9;
+  --text-title: #F8FBFB;
+  --text-label: #BAC6C9;
+
+  --font-family: 'Raleway', sans-serif;
+  --tag: 700 .625rem/100% var(--font-family);
+  --title-sm: 700 2rem/100% var(--font-family);
+  --title-lg: 700 3rem/100% var(--font-family);
+  --title-xs: 700 1rem/100% var(--font-family);
+  --button: 700 .875rem/100% var(--font-family);
+  --link: 500 .875rem/100% var(--font-family);
+  --body-md: 400 1rem/140% var(--font-family);
+  --title-md: 700 2.5rem/100% var(--font-family);
+  --subtitle: 500 2rem/200% var(--font-family);
+  --body-xs: 400 .75rem/140% var(--font-family);
+  --body-lg: 400 1.25rem/140% var(--font-family);
+  --body-sm: 400 .875rem/140% var(--font-family);
+}
+
+body {
+  background-color: var(--shape-background);
+}
+
+@media (width <= 80rem) {
+  :root{
+    --subtitle: 500 1rem/200% var(--font-family);
+    --body-lg: 400 .875rem/140% var(--font-family);
+    --title-sm: 700 1.5rem/100% var(--font-family);
+    --body-md: 400 .875rem/140% var(--font-family);
+    --title-lg: 700 1.75rem/100% var(--font-family);
+  }
+}
