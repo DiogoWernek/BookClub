@@ -1,14 +1,15 @@
 header {
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   & a {
     all: unset;
     padding: .75rem 1.25rem;
-    font: var(--button);
-    background-color: var(--pink-dark);
-    color: var(--text-title);
-    border-radius: .5rem;
+    
     cursor: pointer;
+    font: var(--button);
+    border-radius: .5rem;
+    color: var(--text-title);
+    background-color: var(--pink-dark);
   }
 }

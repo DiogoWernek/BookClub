@@ -1,12 +1,26 @@
 .hero {
+  gap: 3rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  
   background: url('../assets/hero-background.png') no-repeat;
-  background-size: cover;
+  background-size: 62.5rem;
+  background-position-x: center; 
   
   & h1 {
     font: var(--title-lg);
+    color: var(--text-title);
   }
 
   & p {
     font: var(--body-lg);
+    color: var(--text-body);
+  }
+
+  & .texts {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 }
