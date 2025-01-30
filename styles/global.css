@@ -42,12 +42,15 @@
 }
 
 body {
+  background: url('../assets/hero-background.png') no-repeat;
   background-color: var(--shape-background);
+  background-size: 62.5rem;
+  background-position-x: center; 
 }
 
 @media (width <= 80rem) {
   :root{
-    --subtitle: 500 1rem/200% var(--font-family);
+    --subtitle: 500 1rem/140% var(--font-family);
     --body-lg: 400 .875rem/140% var(--font-family);
     --title-sm: 700 1.5rem/100% var(--font-family);
     --body-md: 400 .875rem/140% var(--font-family);

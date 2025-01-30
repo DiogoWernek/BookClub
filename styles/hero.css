@@ -1,12 +1,7 @@
 .hero {
   gap: 3rem;
-  display: flex;
   text-align: center;
   flex-direction: column;
-  
-  background: url('../assets/hero-background.png') no-repeat;
-  background-size: 62.5rem;
-  background-position-x: center; 
   
   & h1 {
     font: var(--title-lg);

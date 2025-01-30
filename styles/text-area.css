@@ -1,0 +1,39 @@
+.text-area {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-top: 17.5625rem;
+  
+  & p {
+    padding: 1.25rem;
+    color: var(--text-body);
+    font: var(--subtitle);
+  }
+
+  & img {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    &:nth-child(1) {
+      position: absolute;
+      right: 20px;
+      bottom: -20px;
+      transform: rotate(15deg);
+    }
+    
+    &:nth-child(2) {
+      position: absolute;
+      top: -30px;
+      right: 74px;
+      transform: rotate(15deg);
+    }
+
+    &:nth-child(3) {
+      position: absolute;
+      bottom: -20px;
+      left: 14px;
+      transform: rotate(15deg);
+    }
+  }
+}
