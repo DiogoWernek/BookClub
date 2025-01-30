@@ -44,7 +44,7 @@
 body {
   background: url('../assets/hero-background.png') no-repeat;
   background-color: var(--shape-background);
-  background-size: 62.5rem;
+  background-size: 100rem;
   background-position-x: center; 
 }
 
@@ -55,5 +55,9 @@ body {
     --title-sm: 700 1.5rem/100% var(--font-family);
     --body-md: 400 .875rem/140% var(--font-family);
     --title-lg: 700 1.75rem/100% var(--font-family);
+  }
+
+  body {
+    background-size: 62.5rem;
   }
 }

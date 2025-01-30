@@ -19,3 +19,15 @@
     flex-direction: column;
   }
 }
+
+@media (width >= 80rem) {
+  .hero {
+    align-items: center;
+
+    & .texts {
+      gap: 2rem;
+      align-items: center;
+      max-width: 41rem;
+    }
+  }
+}

@@ -9,3 +9,26 @@
 .fd-column {
   flex-direction: column;
 }
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: block;
+}
+
+@media (width >= 80rem) {
+  
+  .pd-sm {
+    padding: 3.5rem 10rem;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}

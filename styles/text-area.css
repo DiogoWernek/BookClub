@@ -37,3 +37,40 @@
     }
   }
 }
+
+@media (width >= 80rem) {
+  .text-area {
+    margin-top: 33.5625rem;
+    justify-content: center;
+  
+    & p {
+      padding-inline: 7.5rem;
+    }
+
+    & img {
+      width: 5.5rem;
+      height: 5.5rem;
+  
+      &:nth-child(1) {
+        position: absolute;
+        right: 137px;
+        bottom: -50px;
+        transform: rotate(-14deg);
+      }
+      
+      &:nth-child(2) {
+        position: absolute;
+        top: -84px;
+        left: 651px;
+        transform: rotate(20deg);
+      }
+  
+      &:nth-child(3) {
+        position: absolute;
+        bottom: -50px;
+        left: 125px;
+        transform: rotate(100deg);
+      }
+    }
+  }
+}
