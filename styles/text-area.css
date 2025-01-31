@@ -1,14 +1,18 @@
 .text-area {
   align-items: center;
   justify-content: center;
-  position: relative;
   text-align: center;
   margin-top: 17.5625rem;
+  position: relative;
   
   & p {
     padding: 1.25rem;
     color: var(--text-body);
     font: var(--subtitle);
+
+    strong {
+      color: var(--blue-light);
+    }
   }
 
   & img {
@@ -45,6 +49,7 @@
   
     & p {
       padding-inline: 7.5rem;
+      max-width: 1280px;
     }
 
     & img {
