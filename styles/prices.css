@@ -1,0 +1,274 @@
+.prices {
+  margin-top: 12.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  & .price-header {
+    text-align: center;
+
+    & h1 {
+      max-width: 13.8125rem;
+      font: var(--title-sm);
+      color: var(--text-body);
+    }
+  }
+
+  & .cards-prices {
+    margin-top: 3rem;
+    width: 100%;
+    justify-content: center;
+
+    & .wrapper {
+      width: auto;
+      gap: 1rem;
+      overflow-x: scroll;
+
+      & #card-1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 18rem;
+        min-width: 18rem;
+        margin-inline: 3.25rem 0rem;
+        max-height: 25rem;
+        width: 100%;
+        background-color: var(--shape-base);
+        border: 1px solid var(--shape-stroke);
+        border-radius: 1.5rem;
+        height: 100%;
+
+        & h3 {
+          font: var(--title-xs);
+          color: var(--blue-light);
+          padding-inline: 2rem;
+          padding-block: 2rem 1.5rem;
+        }
+
+        & .price {
+          & p {
+            padding-inline: 2rem;
+            font: var(--title-md);
+            color: var(--text-body);
+            margin-bottom: .5rem;
+          }
+
+          & span {
+            padding-inline: 2rem;
+            font: var(--body-sm);
+            color: var(--text-label);
+          }
+
+          & small {
+            font: var(--title-xs);
+          }
+        }
+
+        & .benefits {
+          margin-top: 5.1875rem;
+
+          & p {
+            padding-inline: 2rem 1rem;
+            display: flex;
+            font: var(--body-xs);
+            color: var(--text-body);
+            margin-bottom: .75rem;
+          }
+
+          & p::before {
+            content: "";
+            display: block;
+            background-image: url('../assets/icons/star-benefits.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: .875rem;
+            height: .875rem;
+            margin-right: .5rem;
+          }
+        }
+
+        & .button {
+          padding-inline: 2rem;
+          padding-bottom: 1.75rem;
+
+          & a {
+            all: unset;
+            border-radius: .5rem;
+            background-color: var(--blue-dark);
+            font: var(--button);
+            color: var(--text-title);
+            padding: 12px 53px;
+            margin-top: .75rem;
+          }
+        }
+      }
+
+      & #card-2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 18rem;
+        min-width: 18rem;
+        max-height: 25rem;
+        width: 100%;
+        background-color: var(--shape-base);
+        border: 1px solid var(--shape-stroke);
+        border-radius: 1.5rem;
+        height: 100%;
+
+        & h3 {
+          font: var(--title-xs);
+          color: var(--blue-light);
+          padding-inline: 2rem;
+          padding-block: 2rem 1.5rem;
+        }
+
+        & .price {
+          & p {
+            padding-inline: 2rem;
+            font: var(--title-md);
+            color: var(--text-body);
+            margin-bottom: .5rem;
+          }
+
+          & span {
+            padding-inline: 2rem;
+            font: var(--body-sm);
+            color: var(--text-label);
+          }
+
+          & small {
+            font: var(--title-xs);
+          }
+        }
+
+        & .benefits {
+          margin-top: 5.1875rem;
+
+          & p {
+            padding-inline: 2rem 1rem;
+            display: flex;
+            font: var(--body-xs);
+            color: var(--text-body);
+            margin-bottom: .75rem;
+          }
+
+          & p::before {
+            content: "";
+            display: block;
+            background-image: url('../assets/icons/star-benefits.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: .875rem;
+            height: .875rem;
+            margin-right: .5rem;
+          }
+        }
+
+        & .button {
+          padding-inline: 2rem;
+          padding-bottom: 1.75rem;
+
+          & a {
+            all: unset;
+            border-radius: .5rem;
+            background-color: var(--blue-dark);
+            font: var(--button);
+            color: var(--text-title);
+            padding: 12px 53px;
+            margin-top: .75rem;
+          }
+        }
+      }
+
+      & #card-3 {
+        display: flex;
+        flex-direction: column;
+        max-width: 18rem;
+        min-width: 18rem;
+        margin-inline: 0rem 1rem;
+        max-height: 25rem;
+        width: 100%;
+        background-color: var(--shape-base);
+        border: 1px solid var(--shape-stroke);
+        border-radius: 1.5rem;
+        height: 100%;
+
+        & h3 {
+          font: var(--title-xs);
+          color: var(--blue-light);
+          padding-inline: 2rem;
+          padding-block: 2rem 1.5rem;
+        }
+
+        & .price {
+          & p {
+            padding-inline: 2rem;
+            font: var(--title-md);
+            color: var(--text-body);
+            margin-bottom: .5rem;
+          }
+
+          & span {
+            padding-inline: 2rem;
+            font: var(--body-sm);
+            color: var(--text-label);
+          }
+
+          & small {
+            font: var(--title-xs);
+          }
+        }
+
+        & .benefits {
+          margin-top: 5.1875rem;
+
+          & p {
+            padding-inline: 2rem 1rem;
+            display: flex;
+            font: var(--body-xs);
+            color: var(--text-body);
+            margin-bottom: .75rem;
+          }
+
+          & p::before {
+            content: "";
+            display: block;
+            background-image: url('../assets/icons/star-benefits.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: .875rem;
+            height: .875rem;
+            margin-right: .5rem;
+          }
+        }
+
+        & .button {
+          padding-inline: 2rem;
+          padding-bottom: 1.75rem;
+
+          & a {
+            all: unset;
+            border-radius: .5rem;
+            background-color: var(--blue-dark);
+            font: var(--button);
+            color: var(--text-title);
+            padding: 12px 53px;
+            margin-top: .75rem;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (width >= 80rem) {
+  .prices {
+    
+    & .price-header {
+  
+      & h1 {
+        max-width: 18.375rem
+      }
+    }
+  }
+}
