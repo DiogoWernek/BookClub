@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --pink-low: #3F0F41;
   --pink-base: #9547A5;
