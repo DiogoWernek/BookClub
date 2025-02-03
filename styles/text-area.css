@@ -1,14 +1,16 @@
 .text-area {
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  align-items: center;
   margin-top: 23.5625rem;
+  justify-content: center;
+  
   position: relative;
   
   & p {
     padding: 1.25rem;
-    color: var(--text-body);
+    
     font: var(--subtitle);
+    color: var(--text-body);
 
     strong {
       color: var(--blue-light);
@@ -20,23 +22,26 @@
     height: 2.5rem;
 
     &:nth-child(1) {
-      position: absolute;
       right: 20px;
       bottom: -20px;
+      position: absolute;
+      
       transform: rotate(15deg);
     }
     
     &:nth-child(2) {
-      position: absolute;
       top: -30px;
       right: 74px;
+      position: absolute;
+      
       transform: rotate(15deg);
     }
 
     &:nth-child(3) {
-      position: absolute;
-      bottom: -20px;
       left: 14px;
+      bottom: -20px;
+      position: absolute;
+      
       transform: rotate(15deg);
     }
   }
@@ -48,8 +53,8 @@
     justify-content: center;
   
     & p {
-      padding-inline: 7.5rem;
       max-width: 1280px;
+      padding-inline: 7.5rem;
     }
 
     & img {
@@ -57,24 +62,47 @@
       height: 5.5rem;
   
       &:nth-child(1) {
-        position: absolute;
         right: 137px;
         bottom: -50px;
+        position: absolute;
+        
         transform: rotate(-14deg);
+        transition: transform 600ms ease;
       }
       
       &:nth-child(2) {
-        position: absolute;
         top: -84px;
         left: 651px;
+        position: absolute;
+        
         transform: rotate(20deg);
+        transition: transform 600ms ease;
       }
   
       &:nth-child(3) {
-        position: absolute;
-        bottom: -50px;
         left: 125px;
+        bottom: -50px;
+        position: absolute;
+        
         transform: rotate(100deg);
+        transition: transform 600ms ease;
+      }
+    }
+
+    & img:hover {
+      &:nth-child(1) {
+        transform: rotate(-40deg);
+        transition: transform 600ms ease;
+      }
+      
+      &:nth-child(2) {
+        transform: rotate(50deg);
+        transition: transform 600ms ease;
+      }
+  
+      &:nth-child(3) {
+        transform: rotate(140deg);
+        transition: transform 600ms ease;
       }
     }
   }
